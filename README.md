@@ -31,3 +31,8 @@
 ## Documentação
 
 - Acesse a documentação acessando o rota ```/doc``` ou ```/redoc```.
+
+### Nota:
+
+_Ainda é necessário adicionar o Banco de Dados PostgreSQL e colocar esse projeto na AWS. </br>
+portanto está 90% pronto._

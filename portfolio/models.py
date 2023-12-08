@@ -11,6 +11,7 @@ class Projeto(models.Model):
     titulo = models.CharField(max_length=30, blank=False)
     categoria = models.CharField(max_length=1, choices=CATEGORIA, null=False, default='F')
     descricao = models.TextField(max_length=255, blank=False)
+    link = models.CharField(max_length=100, blank=False, default='')
 
     def __str__(self) -> str:
         return self.titulo
