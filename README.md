@@ -15,18 +15,22 @@
 - Inicialize a virtual env
 ```python -m venv venv```
 
-- Ative a virtual env
+- Ative a virtual env </br>
  *windows*
- ```venv\Scripts\Activate```
+ ```venv\Scripts\Activate```</br>
 
  *linux/mac*
  ```source venv/bin/activate```
 
-- Instale as dependencias do projeto
+- Instale as dependencias do projeto </br>
 ```pip install -r requirements.txt```
 
-- Realize as migrações do projeto
+- Realize as migrações do projeto </br>
 ```python manage.py migrate```
 
-- Inicialize o projeto
+- Inicialize o projeto </br>
 ```python manage.py runserver```
+
+## Documentação
+
+=> Acesse a documentação acessando o rota ```/doc``` ou ```/redoc```.
