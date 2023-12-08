@@ -9,19 +9,16 @@
 
 ## Como inicia-lo?
 
-- Realize o clone do projeto
+- Realize o clone do projeto </br>
 ```git clone https://github.com/GaaraSan01/BackEnd-Portfolio.git```
 
-- Inicialize a virtual env
+- Inicialize a virtual env </br>
 ```python -m venv venv```
 
 - Ative a virtual env </br>
  *windows*
- ```venv\Scripts\Activate```</br>
-
- *linux/mac*
- ```source venv/bin/activate```
-
+ ```venv\Scripts\Activate```</br> *linux/mac* ```source venv/bin/activate```
+ 
 - Instale as dependencias do projeto </br>
 ```pip install -r requirements.txt```
 
@@ -33,4 +30,4 @@
 
 ## Documentação
 
-=> Acesse a documentação acessando o rota ```/doc``` ou ```/redoc```.
+- Acesse a documentação acessando o rota ```/doc``` ou ```/redoc```.
