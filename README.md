@@ -20,14 +20,14 @@ python -m venv venv
 ```
 
 - Ative a virtual env </br>
- *windows*
- ``` shell
+*windows*
+``` shell
  venv\Scripts\Activate
- ```</br>
-  *linux/mac* 
-  ``` shell
+```
+*linux/mac* 
+``` shell
   source venv/bin/activate
-  ```
+```
  
 - Instale as dependencias do projeto </br>
 ``` shell
@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ```
 
 - Realize as migrações do projeto </br>
+
 ```shell
 python manage.py migrate
 ```
