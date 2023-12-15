@@ -10,23 +10,39 @@
 ## Como inicia-lo?
 
 - Realize o clone do projeto </br>
-```git clone https://github.com/GaaraSan01/BackEnd-Portfolio.git```
+``` shell
+git clone https://github.com/GaaraSan01/BackEnd-Portfolio.git
+```
 
 - Inicialize a virtual env </br>
-```python -m venv venv```
+```shell
+python -m venv venv
+```
 
 - Ative a virtual env </br>
  *windows*
- ```venv\Scripts\Activate```</br> *linux/mac* ```source venv/bin/activate```
+ ``` shell
+ venv\Scripts\Activate
+ ```</br>
+  *linux/mac* 
+  ``` shell
+  source venv/bin/activate
+  ```
  
 - Instale as dependencias do projeto </br>
-```pip install -r requirements.txt```
+``` shell
+pip install -r requirements.txt
+```
 
 - Realize as migrações do projeto </br>
-```python manage.py migrate```
+```shell
+python manage.py migrate
+```
 
 - Inicialize o projeto </br>
-```python manage.py runserver```
+```shell
+python manage.py runserver
+```
 
 ## Documentação
 
@@ -34,5 +50,7 @@
 
 ### Nota:
 
-_Ainda é necessário adicionar o Banco de Dados PostgreSQL e colocar esse projeto na AWS. </br>
-portanto está 90% pronto._
+_É necessários criar um Bucket (S3) na AWS e fornecer as informações necessárias como está arquivo <br/>_
+'''.env.example'''
+
+- As tecnologias pode utilizar as tecnologias docker e postgreSQL se necessário, dependendo da hospedagem que será feita o deploy.
