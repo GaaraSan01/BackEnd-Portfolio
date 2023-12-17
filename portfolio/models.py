@@ -4,7 +4,8 @@ class Projeto(models.Model):
     CATEGORIA = (
         ('B', 'Back-end'),
         ('F', 'Front-end'),
-        ('D', 'DevOps')
+        ('D', 'DevOps'),
+        ('S', 'Full-Stack')
     )
 
     imagem = models.ImageField(blank=True)
