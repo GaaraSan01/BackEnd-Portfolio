@@ -5,7 +5,8 @@ class Projeto(models.Model):
         ('B', 'Back-end'),
         ('F', 'Front-end'),
         ('D', 'DevOps'),
-        ('S', 'Full-Stack')
+        ('S', 'Full-Stack'),
+        ('M', 'Mobile')
     )
 
     imagem = models.ImageField(blank=True)
